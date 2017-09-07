@@ -14,7 +14,9 @@
         android:background="@drawable/logo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/imageView" />
+        android:id="@+id/imageView"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -23,7 +25,8 @@
         android:layout_below="@+id/imageView"
         android:layout_alignLeft="@+id/imageView"
         android:layout_alignStart="@+id/imageView"
-        android:id="@+id/imageCao" />
+        android:id="@+id/imageCao"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -32,7 +35,8 @@
         android:layout_below="@+id/imageView"
         android:layout_alignRight="@+id/imageView"
         android:layout_alignEnd="@+id/imageView"
-        android:id="@+id/imageGato" />
+        android:id="@+id/imageGato"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -41,7 +45,8 @@
         android:layout_below="@+id/imageCao"
         android:layout_alignLeft="@+id/imageCao"
         android:layout_alignStart="@+id/imageCao"
-        android:id="@+id/imageLeao" />
+        android:id="@+id/imageLeao"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -52,7 +57,8 @@
         android:layout_alignEnd="@+id/imageGato"
         android:layout_above="@+id/imageVaca"
         android:layout_alignLeft="@+id/imageGato"
-        android:layout_alignStart="@+id/imageGato" />
+        android:layout_alignStart="@+id/imageGato"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -63,7 +69,9 @@
         android:layout_alignLeft="@+id/imageLeao"
         android:layout_alignStart="@+id/imageLeao"
         android:layout_alignRight="@+id/imageLeao"
-        android:layout_alignEnd="@+id/imageLeao" />
+        android:layout_alignEnd="@+id/imageLeao"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -73,13 +81,15 @@
         android:layout_alignBottom="@+id/imageVaca"
         android:layout_alignLeft="@+id/imageMacaco"
         android:layout_alignStart="@+id/imageMacaco"
-        android:layout_below="@+id/imageMacaco" />
+        android:layout_below="@+id/imageMacaco"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/direitos"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
 
 </RelativeLayout>
